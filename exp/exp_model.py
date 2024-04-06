@@ -19,6 +19,8 @@ from torch import optim
 from torch.utils.data import DataLoader
 import torch.nn.functional as F
 
+from utils.metrics import MAE, MAPE, MSE
+
 import os
 import time
 import warnings
@@ -182,7 +184,11 @@ class Exp_Model(object):
         # print('test shape:', preds.shape, trues.shape)
         mse = np.mean((preds - trues) ** 2)
         print('mse:{}'.format(mse))
-
+        mae = MAE(preds, trues)
+        mape = MAPE(preds, trues)
+        f = open("exp_2_result.txt", 'a')
+        f.write('mse:{} mae:{} mape:{}\n'.format(mse, mae, mape))
+        f.close()
         # folder_path = './results/' + setting +'/'
         # if not os.path.exists(folder_path):
         #     os.makedirs(folder_path)

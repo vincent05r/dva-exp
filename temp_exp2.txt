@@ -1,5 +1,5 @@
 Args in experiment:
-Namespace(arch_instance='res_mbconv', batch_size=16, beta_end=1.0, beta_schedule='linear', beta_start=0.0, channel_mult=2, checkpoints='./checkpoints/', diff_steps=1000, dropout_rate=0.1, embedding_dimension=64, eta=1.0, gpu=0, groups_per_scale=2, hidden_size=128, input_dim=6, itr=5, learning_rate=0.0001, mult=1, num_channels_dec=32, num_channels_enc=32, num_latent_per_group=8, num_layers=2, num_postprocess_blocks=1, num_postprocess_cells=2, num_preprocess_blocks=1, num_preprocess_cells=3, num_workers=5, patience=10, prediction_length=10, root_path='data/EcmP_stock_L_2016_24_dva_spec', scale=1, sequence_length=10, target_dim=1, train_epochs=30, use_gpu=True, weight_decay=0.0, zeta=0.5)
+Namespace(arch_instance='res_mbconv', batch_size=16, beta_end=1.0, beta_schedule='linear', beta_start=0.0, channel_mult=2, checkpoints='./checkpoints/', diff_steps=1000, dropout_rate=0.1, embedding_dimension=64, eta=1.0, gpu=0, groups_per_scale=2, hidden_size=128, input_dim=6, itr=2, learning_rate=0.0005, mult=1, num_channels_dec=32, num_channels_enc=32, num_latent_per_group=8, num_layers=2, num_postprocess_blocks=1, num_postprocess_cells=2, num_preprocess_blocks=1, num_preprocess_cells=3, num_workers=5, patience=10, prediction_length=10, root_path='data/EcmP_stock_L_2016_24_dva_spec', scale=0.1, sequence_length=10, target_dim=1, train_epochs=30, use_gpu=True, weight_decay=0.0, zeta=0.5)
 
 
 Running on file AAPL.csv (1/71)...
@@ -8,3 +8,4 @@ Use GPU: cuda:0
 train 1389
 val 192
 test 393
+tensor(34.1031, device='cuda:0', grad_fn=<AddBackward0>)
