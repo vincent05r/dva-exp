@@ -1,0 +1,12 @@
+Args in experiment:
+Namespace(arch_instance='res_mbconv', batch_size=16, beta_end=1.0, beta_schedule='linear', beta_start=0.0, channel_mult=2, checkpoints='./checkpoints/', diff_steps=1000, dropout_rate=0.1, embedding_dimension=64, eta=1.0, gpu=0, groups_per_scale=2, hidden_size=128, input_dim=6, itr=1, learning_rate=0.0005, mult=1, num_channels_dec=32, num_channels_enc=32, num_latent_per_group=8, num_layers=2, num_postprocess_blocks=1, num_postprocess_cells=2, num_preprocess_blocks=1, num_preprocess_cells=3, num_workers=5, patience=2, prediction_length=60, root_path='data/EcmP_stock_L_2016_24_spec_official_dva_spec', scale=0.1, sequence_length=60, target_dim=1, train_epochs=30, use_gpu=True, weight_decay=0.0, zeta=0.5)
+
+
+Running on file AAPL_pct.csv (1/71)...
+Use GPU: cuda:0
+>>>>>>>start training : AAPL_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(201.9311, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(94.9072, device='cuda:0', grad_fn=<AddBackward0>)

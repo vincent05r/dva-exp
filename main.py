@@ -50,8 +50,8 @@ if __name__ == '__main__':
 
     # Training settings
     parser.add_argument('--num_workers', type=int, default=5, help='data loader num workers')
-    parser.add_argument('--patience', type=int, default=10, help='early stopping patience')
-    parser.add_argument('--itr', type=int, default=2, help='experiment times')
+    parser.add_argument('--patience', type=int, default=2, help='early stopping patience')
+    parser.add_argument('--itr', type=int, default=1, help='experiment times')
     parser.add_argument('--train_epochs', type=int, default=30, help='train epochs')
     parser.add_argument('--batch_size', type=int, default=16, help='batch size of train input data')
     parser.add_argument('--learning_rate', type=float, default=0.0005, help='optimizer learning rate')

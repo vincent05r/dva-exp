@@ -186,7 +186,7 @@ class Exp_Model(object):
         print('mse:{}'.format(mse))
         mae = MAE(preds, trues)
         mape = MAPE(preds, trues)
-        f = open("exp_2_result.txt", 'a')
+        f = open("exp_pct_result.txt", 'a')
         f.write('mse:{} mae:{} mape:{}\n'.format(mse, mae, mape))
         f.close()
         # folder_path = './results/' + setting +'/'
