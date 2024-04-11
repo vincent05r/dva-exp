@@ -10,3 +10,2413 @@ val 142
 test 343
 tensor(201.9311, device='cuda:0', grad_fn=<AddBackward0>)
 tensor(94.9072, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0543848 KL Loss: 43.0073310 DSM Loss: 67.4075879 Overall Loss:112.4693031
+Validation loss decreased (inf --> 0.810503).  Saving model ...
+Updating learning rate to 0.0005
+tensor(84.8953, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(105.3579, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9987988 KL Loss: 42.8381976 DSM Loss: 59.1972332 Overall Loss:104.0342298
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(100.9978, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(99.7924, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9541703 KL Loss: 42.6121212 DSM Loss: 58.7323606 Overall Loss:103.2986518
+Validation loss decreased (0.810503 --> 0.810316).  Saving model ...
+Updating learning rate to 0.000125
+tensor(117.4209, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(104.9249, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9721863 KL Loss: 42.8857694 DSM Loss: 58.0622105 Overall Loss:102.9201660
+Validation loss decreased (0.810316 --> 0.808543).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(96.3269, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(103.3054, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9385386 KL Loss: 42.5503048 DSM Loss: 58.0787903 Overall Loss:102.5676334
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 3.125e-05
+tensor(89.7884, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(75.4743, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9588725 KL Loss: 42.8138893 DSM Loss: 57.2375330 Overall Loss:102.0102946
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : AAPL_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8634804487228394
+
+
+Running on file ABBV_pct.csv (2/71)...
+Use GPU: cuda:0
+>>>>>>>start training : ABBV_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(124.7698, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(121.6836, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9632755 KL Loss: 42.9188986 DSM Loss: 76.1078265 Overall Loss:120.9900014
+Validation loss decreased (inf --> 0.439170).  Saving model ...
+Updating learning rate to 0.0005
+tensor(123.9753, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(101.1384, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9591466 KL Loss: 42.7068513 DSM Loss: 57.6323310 Overall Loss:102.2983290
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(90.7036, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(73.3142, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9681162 KL Loss: 42.8074549 DSM Loss: 56.1782061 Overall Loss:100.9537773
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : ABBV_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.5623781085014343
+
+
+Running on file AEP_pct.csv (3/71)...
+Use GPU: cuda:0
+>>>>>>>start training : AEP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(158.8579, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(92.9731, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9839304 KL Loss: 42.9158620 DSM Loss: 84.9668568 Overall Loss:129.8666493
+Validation loss decreased (inf --> 0.615937).  Saving model ...
+Updating learning rate to 0.0005
+tensor(82.7477, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(74.1224, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 2.0139807 KL Loss: 43.0173405 DSM Loss: 60.1542011 Overall Loss:105.1855219
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(92.9167, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(79.3004, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 2.0355629 KL Loss: 43.1188989 DSM Loss: 58.2543452 Overall Loss:103.4088077
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : AEP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.1411782503128052
+
+
+Running on file AMGN_pct.csv (4/71)...
+Use GPU: cuda:0
+>>>>>>>start training : AMGN_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(147.4261, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(101.5059, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9385248 KL Loss: 42.6862708 DSM Loss: 66.2110248 Overall Loss:110.8358203
+Validation loss decreased (inf --> 0.685895).  Saving model ...
+Updating learning rate to 0.0005
+tensor(109.3025, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(129.5107, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9549531 KL Loss: 42.6399079 DSM Loss: 57.6543279 Overall Loss:102.2491891
+Validation loss decreased (0.685895 --> 0.677966).  Saving model ...
+Updating learning rate to 0.00025
+tensor(88.2112, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(127.3907, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9311613 KL Loss: 42.4008727 DSM Loss: 58.0240617 Overall Loss:102.3560959
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(111.4788, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(93.1947, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9368822 KL Loss: 42.5673659 DSM Loss: 57.0504860 Overall Loss:101.5547344
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : AMGN_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.7081382870674133
+
+
+Running on file AMZN_pct.csv (5/71)...
+Use GPU: cuda:0
+>>>>>>>start training : AMZN_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(147.9867, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(74.6494, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9443562 KL Loss: 42.6761812 DSM Loss: 64.1447734 Overall Loss:108.7653111
+Validation loss decreased (inf --> 1.578197).  Saving model ...
+Updating learning rate to 0.0005
+tensor(109.8206, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(96.4173, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9291975 KL Loss: 42.5824464 DSM Loss: 55.0668575 Overall Loss:99.5785012
+Validation loss decreased (1.578197 --> 1.577511).  Saving model ...
+Updating learning rate to 0.00025
+tensor(103.1177, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(97.5407, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9663875 KL Loss: 42.6434625 DSM Loss: 54.4201073 Overall Loss:99.0299570
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(113.4195, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(77.6095, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9357201 KL Loss: 42.4739426 DSM Loss: 54.7653116 Overall Loss:99.1749743
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : AMZN_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.746724247932434
+
+
+Running on file BAC_pct.csv (6/71)...
+Use GPU: cuda:0
+>>>>>>>start training : BAC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(147.2573, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(75.4417, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9225134 KL Loss: 42.5543854 DSM Loss: 76.4006996 Overall Loss:120.8775988
+Validation loss decreased (inf --> 0.708438).  Saving model ...
+Updating learning rate to 0.0005
+tensor(136.6905, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(84.3356, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9649176 KL Loss: 42.6708805 DSM Loss: 60.3053037 Overall Loss:104.9411016
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(110.2293, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(111.0403, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 2.0022439 KL Loss: 43.0437108 DSM Loss: 56.0367338 Overall Loss:101.0826887
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : BAC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6808168888092041
+
+
+Running on file BA_pct.csv (7/71)...
+Use GPU: cuda:0
+>>>>>>>start training : BA_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(156.2049, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(130.7108, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9923020 KL Loss: 42.8135120 DSM Loss: 66.6438769 Overall Loss:111.4496905
+Validation loss decreased (inf --> 0.751616).  Saving model ...
+Updating learning rate to 0.0005
+tensor(130.7577, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(114.0884, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9968794 KL Loss: 42.9185225 DSM Loss: 59.4630045 Overall Loss:104.3784068
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(130.4779, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(78.6762, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9651390 KL Loss: 42.7335946 DSM Loss: 59.0479338 Overall Loss:103.7466670
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : BA_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.5859843492507935
+
+
+Running on file BCH_pct.csv (8/71)...
+Use GPU: cuda:0
+>>>>>>>start training : BCH_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(213.2084, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(81.0472, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9653909 KL Loss: 42.7912143 DSM Loss: 74.8056680 Overall Loss:119.5622733
+Validation loss decreased (inf --> 1.772398).  Saving model ...
+Updating learning rate to 0.0005
+tensor(82.2499, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(82.8120, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9440127 KL Loss: 42.4626623 DSM Loss: 60.6296937 Overall Loss:105.0363690
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(143.8920, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(88.0159, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9751489 KL Loss: 42.8088405 DSM Loss: 58.4434991 Overall Loss:103.2274887
+Validation loss decreased (1.772398 --> 1.762723).  Saving model ...
+Updating learning rate to 0.000125
+tensor(100.4794, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(113.1113, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9747001 KL Loss: 42.7854122 DSM Loss: 58.1380446 Overall Loss:102.8981572
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(113.7968, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(108.0170, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9334689 KL Loss: 42.3096402 DSM Loss: 58.2397839 Overall Loss:102.4828927
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : BCH_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8902872800827026
+
+
+Running on file BHP_pct.csv (9/71)...
+Use GPU: cuda:0
+>>>>>>>start training : BHP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(158.1445, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(101.3961, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.8546780 KL Loss: 42.3663125 DSM Loss: 63.1048983 Overall Loss:107.3258886
+Validation loss decreased (inf --> 0.949975).  Saving model ...
+Updating learning rate to 0.0005
+tensor(81.3204, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(81.2518, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9219096 KL Loss: 42.5494237 DSM Loss: 51.5456671 Overall Loss:96.0169999
+Validation loss decreased (0.949975 --> 0.946318).  Saving model ...
+Updating learning rate to 0.00025
+tensor(125.1541, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(78.0979, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9198189 KL Loss: 42.4007077 DSM Loss: 50.6044858 Overall Loss:94.9250123
+Validation loss decreased (0.946318 --> 0.945884).  Saving model ...
+Updating learning rate to 0.000125
+tensor(93.4544, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(123.4896, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.8981012 KL Loss: 42.3951820 DSM Loss: 50.0915305 Overall Loss:94.3848134
+Validation loss decreased (0.945884 --> 0.945748).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(80.6831, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(76.9254, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.8972688 KL Loss: 42.2238477 DSM Loss: 49.9378475 Overall Loss:94.0589635
+Validation loss decreased (0.945748 --> 0.944637).  Saving model ...
+Updating learning rate to 3.125e-05
+tensor(87.7142, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(66.9118, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9028920 KL Loss: 42.3817457 DSM Loss: 49.6334228 Overall Loss:93.9180605
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 1.5625e-05
+tensor(112.7076, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(113.5052, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.9008288 KL Loss: 42.3701995 DSM Loss: 49.5513953 Overall Loss:93.8224238
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : BHP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8817847967147827
+
+
+Running on file BP_pct.csv (10/71)...
+Use GPU: cuda:0
+>>>>>>>start training : BP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(194.3283, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(127.4369, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9777896 KL Loss: 42.7494625 DSM Loss: 78.3652188 Overall Loss:123.0924705
+Validation loss decreased (inf --> 0.933352).  Saving model ...
+Updating learning rate to 0.0005
+tensor(107.3376, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(143.2469, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9372440 KL Loss: 42.6590544 DSM Loss: 57.8883171 Overall Loss:102.4846154
+Validation loss decreased (0.933352 --> 0.933264).  Saving model ...
+Updating learning rate to 0.00025
+tensor(107.0846, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(109.4641, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9690399 KL Loss: 42.4281463 DSM Loss: 56.6567159 Overall Loss:101.0539025
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(121.0194, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(151.5748, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9447823 KL Loss: 42.3781695 DSM Loss: 56.2446550 Overall Loss:100.5676065
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : BP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6925082206726074
+
+
+Running on file BRK-A_pct.csv (11/71)...
+Use GPU: cuda:0
+>>>>>>>start training : BRK-A_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(174.8737, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(85.2881, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9517851 KL Loss: 42.8649328 DSM Loss: 73.9460374 Overall Loss:118.7627557
+Validation loss decreased (inf --> 0.665155).  Saving model ...
+Updating learning rate to 0.0005
+tensor(94.1197, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(126.8436, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9605926 KL Loss: 42.9963732 DSM Loss: 60.0797886 Overall Loss:105.0367542
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(110.1349, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(82.3645, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9872805 KL Loss: 42.8329269 DSM Loss: 58.9746797 Overall Loss:103.7948874
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : BRK-A_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8443037867546082
+
+
+Running on file BSAC_pct.csv (12/71)...
+Use GPU: cuda:0
+>>>>>>>start training : BSAC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(137.6720, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(139.8592, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9554705 KL Loss: 42.7524242 DSM Loss: 65.7138254 Overall Loss:110.4217201
+Validation loss decreased (inf --> 1.618517).  Saving model ...
+Updating learning rate to 0.0005
+tensor(127.7379, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(112.9609, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9318419 KL Loss: 42.7890609 DSM Loss: 59.1894416 Overall Loss:103.9103441
+Validation loss decreased (1.618517 --> 1.615206).  Saving model ...
+Updating learning rate to 0.00025
+tensor(127.1394, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(137.2031, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9187672 KL Loss: 42.2772879 DSM Loss: 58.6644661 Overall Loss:102.8605213
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(116.2092, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(109.7938, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9483693 KL Loss: 42.6201004 DSM Loss: 58.0113711 Overall Loss:102.5798405
+Validation loss decreased (1.615206 --> 1.615081).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(101.0705, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(83.8922, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9580105 KL Loss: 42.7815874 DSM Loss: 58.4712196 Overall Loss:103.2108178
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 3.125e-05
+tensor(77.4273, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(136.8071, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9394098 KL Loss: 42.6535137 DSM Loss: 58.2308356 Overall Loss:102.8237591
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : BSAC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8960899710655212
+
+
+Running on file BUD_pct.csv (13/71)...
+Use GPU: cuda:0
+>>>>>>>start training : BUD_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(153.4857, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(106.9096, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0389527 KL Loss: 42.9641640 DSM Loss: 72.9877960 Overall Loss:117.9909121
+Validation loss decreased (inf --> 1.105720).  Saving model ...
+Updating learning rate to 0.0005
+tensor(116.2318, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(83.3485, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9937838 KL Loss: 42.7242509 DSM Loss: 60.2219358 Overall Loss:104.9399709
+Validation loss decreased (1.105720 --> 1.105222).  Saving model ...
+Updating learning rate to 0.00025
+tensor(91.4890, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(105.0598, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9686474 KL Loss: 42.8117087 DSM Loss: 59.3601569 Overall Loss:104.1405127
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(140.4916, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(136.6194, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9934435 KL Loss: 42.7771229 DSM Loss: 59.3060081 Overall Loss:104.0765749
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : BUD_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6593656539916992
+
+
+Running on file CAT_pct.csv (14/71)...
+Use GPU: cuda:0
+>>>>>>>start training : CAT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(140.5101, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(123.7755, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9914072 KL Loss: 43.0535589 DSM Loss: 72.1232069 Overall Loss:117.1681729
+Validation loss decreased (inf --> 0.802001).  Saving model ...
+Updating learning rate to 0.0005
+tensor(111.3511, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(107.7664, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9620531 KL Loss: 42.6105564 DSM Loss: 59.3223860 Overall Loss:103.8949957
+Validation loss decreased (0.802001 --> 0.801172).  Saving model ...
+Updating learning rate to 0.00025
+tensor(114.7725, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(96.7143, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9666204 KL Loss: 42.7755101 DSM Loss: 57.9108019 Overall Loss:102.6529325
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(92.9878, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(108.7331, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9573409 KL Loss: 42.6736459 DSM Loss: 56.4931148 Overall Loss:101.1241014
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : CAT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.9735941290855408
+
+
+Running on file CHTR_pct.csv (15/71)...
+Use GPU: cuda:0
+>>>>>>>start training : CHTR_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(148.5578, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(106.3400, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9632604 KL Loss: 42.7944938 DSM Loss: 72.4274158 Overall Loss:117.1851700
+Validation loss decreased (inf --> 0.924348).  Saving model ...
+Updating learning rate to 0.0005
+tensor(96.3077, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(113.3556, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9580929 KL Loss: 42.6461295 DSM Loss: 57.3636147 Overall Loss:101.9678366
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(109.0556, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(121.6651, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9498263 KL Loss: 42.5976338 DSM Loss: 56.8034445 Overall Loss:101.3509048
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : CHTR_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.6851741075515747
+
+
+Running on file CMCSA_pct.csv (16/71)...
+Use GPU: cuda:0
+>>>>>>>start training : CMCSA_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(146.5298, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(122.7470, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9954944 KL Loss: 42.9459392 DSM Loss: 78.7782855 Overall Loss:123.7197190
+Validation loss decreased (inf --> 0.969067).  Saving model ...
+Updating learning rate to 0.0005
+tensor(128.3521, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(117.7535, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9745924 KL Loss: 42.5128242 DSM Loss: 61.4855173 Overall Loss:105.9729335
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(109.4884, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(159.4807, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9578423 KL Loss: 42.5140895 DSM Loss: 58.4235038 Overall Loss:102.8954351
+Validation loss decreased (0.969067 --> 0.967650).  Saving model ...
+Updating learning rate to 0.000125
+tensor(77.9662, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(81.6145, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9682376 KL Loss: 42.9258840 DSM Loss: 59.6382837 Overall Loss:104.5324049
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(112.1238, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(89.7618, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9811506 KL Loss: 42.6845608 DSM Loss: 59.1972748 Overall Loss:103.8629862
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : CMCSA_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.189556360244751
+
+
+Running on file CODI_pct.csv (17/71)...
+Use GPU: cuda:0
+>>>>>>>start training : CODI_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(183.9978, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(81.0658, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9186181 KL Loss: 42.6069259 DSM Loss: 68.3874686 Overall Loss:112.9130128
+Validation loss decreased (inf --> 1.190070).  Saving model ...
+Updating learning rate to 0.0005
+tensor(83.3197, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(158.0596, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9749008 KL Loss: 42.9014858 DSM Loss: 61.3351058 Overall Loss:106.2114922
+Validation loss decreased (1.190070 --> 1.186004).  Saving model ...
+Updating learning rate to 0.00025
+tensor(101.5841, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(75.9328, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9779387 KL Loss: 42.7986978 DSM Loss: 59.4088420 Overall Loss:104.1854779
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(86.1886, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(85.1449, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9711362 KL Loss: 42.8568193 DSM Loss: 59.2788342 Overall Loss:104.1067902
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : CODI_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.2056127786636353
+
+
+Running on file CSCO_pct.csv (18/71)...
+Use GPU: cuda:0
+>>>>>>>start training : CSCO_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(151.2014, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(169.5930, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9870435 KL Loss: 42.6632057 DSM Loss: 80.7483330 Overall Loss:125.3985818
+Validation loss decreased (inf --> 0.757896).  Saving model ...
+Updating learning rate to 0.0005
+tensor(89.6816, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(86.2208, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9615070 KL Loss: 42.6854330 DSM Loss: 59.2617998 Overall Loss:103.9087400
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(78.6287, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(115.3792, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9342146 KL Loss: 42.3944480 DSM Loss: 58.7723154 Overall Loss:103.1009783
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : CSCO_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6871012449264526
+
+
+Running on file CVX_pct.csv (19/71)...
+Use GPU: cuda:0
+>>>>>>>start training : CVX_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(140.9378, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(128.6188, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0187123 KL Loss: 43.0317152 DSM Loss: 66.3902495 Overall Loss:111.4406774
+Validation loss decreased (inf --> 0.590086).  Saving model ...
+Updating learning rate to 0.0005
+tensor(66.6855, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(107.8943, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9578409 KL Loss: 42.4122020 DSM Loss: 59.8888876 Overall Loss:104.2589305
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(137.7978, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(70.6635, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9265217 KL Loss: 42.4143013 DSM Loss: 59.0572977 Overall Loss:103.3981214
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : CVX_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6994622349739075
+
+
+Running on file C_pct.csv (20/71)...
+Use GPU: cuda:0
+>>>>>>>start training : C_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(169.5383, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(107.4226, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0256792 KL Loss: 43.3164559 DSM Loss: 71.7211139 Overall Loss:117.0632489
+Validation loss decreased (inf --> 0.439954).  Saving model ...
+Updating learning rate to 0.0005
+tensor(73.1774, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(132.5115, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9859606 KL Loss: 42.8760052 DSM Loss: 57.9757714 Overall Loss:102.8377368
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(103.6958, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(80.6566, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9677044 KL Loss: 42.4842465 DSM Loss: 57.8999177 Overall Loss:102.3518685
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : C_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6040173768997192
+
+
+Running on file DHR_pct.csv (21/71)...
+Use GPU: cuda:0
+>>>>>>>start training : DHR_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(175.9589, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(115.4060, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0038458 KL Loss: 43.1184723 DSM Loss: 78.4676001 Overall Loss:123.5899183
+Validation loss decreased (inf --> 1.484124).  Saving model ...
+Updating learning rate to 0.0005
+tensor(87.7179, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(107.1163, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9973718 KL Loss: 42.8845737 DSM Loss: 59.9384488 Overall Loss:104.8203941
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(82.5471, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(120.0775, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9591546 KL Loss: 42.6166953 DSM Loss: 59.6936012 Overall Loss:104.2694509
+Validation loss decreased (1.484124 --> 1.473377).  Saving model ...
+Updating learning rate to 0.000125
+tensor(96.8369, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(89.2858, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9705020 KL Loss: 42.6726073 DSM Loss: 58.8107270 Overall Loss:103.4538360
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(119.3102, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(109.4878, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9275767 KL Loss: 42.3034335 DSM Loss: 58.9536631 Overall Loss:103.1846733
+Validation loss decreased (1.473377 --> 1.471384).  Saving model ...
+Updating learning rate to 3.125e-05
+tensor(98.2797, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(97.0586, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9628433 KL Loss: 42.6945458 DSM Loss: 58.9127409 Overall Loss:103.5701303
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 1.5625e-05
+tensor(104.7653, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(116.5551, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.9412372 KL Loss: 42.5388372 DSM Loss: 59.5084285 Overall Loss:103.9885028
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : DHR_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.6617621183395386
+
+
+Running on file DIS_pct.csv (22/71)...
+Use GPU: cuda:0
+>>>>>>>start training : DIS_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(144.7067, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(79.2706, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0263107 KL Loss: 43.0040702 DSM Loss: 72.5335753 Overall Loss:117.5639560
+Validation loss decreased (inf --> 1.091857).  Saving model ...
+Updating learning rate to 0.0005
+tensor(111.5526, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(104.9771, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 2.0104117 KL Loss: 43.0591787 DSM Loss: 58.6683900 Overall Loss:103.7379810
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(116.0744, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(76.8478, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 2.0463832 KL Loss: 42.8875325 DSM Loss: 58.6333859 Overall Loss:103.5673011
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : DIS_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.3937700986862183
+
+
+Running on file DUK_pct.csv (23/71)...
+Use GPU: cuda:0
+>>>>>>>start training : DUK_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(194.0248, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(171.4174, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9158171 KL Loss: 42.5952474 DSM Loss: 70.8175464 Overall Loss:115.3286114
+Validation loss decreased (inf --> 0.578137).  Saving model ...
+Updating learning rate to 0.0005
+tensor(72.1785, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(151.8641, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 2.0274060 KL Loss: 43.1880040 DSM Loss: 59.8120270 Overall Loss:105.0274368
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(128.0446, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(187.9293, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 2.0062919 KL Loss: 42.7083280 DSM Loss: 60.3140652 Overall Loss:105.0286853
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : DUK_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8789016008377075
+
+
+Running on file D_pct.csv (24/71)...
+Use GPU: cuda:0
+>>>>>>>start training : D_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(139.8233, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(92.5977, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9857754 KL Loss: 42.7363467 DSM Loss: 68.8600586 Overall Loss:113.5821814
+Validation loss decreased (inf --> 0.651555).  Saving model ...
+Updating learning rate to 0.0005
+tensor(95.7200, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(74.5977, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9834031 KL Loss: 42.7816947 DSM Loss: 60.2731174 Overall Loss:105.0382157
+Validation loss decreased (0.651555 --> 0.650655).  Saving model ...
+Updating learning rate to 0.00025
+tensor(115.4860, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(58.1851, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9228098 KL Loss: 42.4063408 DSM Loss: 60.6150828 Overall Loss:104.9442340
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(104.9221, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(76.7847, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9337939 KL Loss: 42.4369782 DSM Loss: 61.2212192 Overall Loss:105.5919911
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : D_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.124954104423523
+
+
+Running on file EXC_pct.csv (25/71)...
+Use GPU: cuda:0
+>>>>>>>start training : EXC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(182.5543, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(71.7772, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0029673 KL Loss: 43.0567296 DSM Loss: 65.3154333 Overall Loss:110.3751299
+Validation loss decreased (inf --> 0.467970).  Saving model ...
+Updating learning rate to 0.0005
+tensor(71.8332, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(160.3717, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9538301 KL Loss: 42.9255219 DSM Loss: 58.6772749 Overall Loss:103.5566270
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(75.6664, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(114.1490, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9269383 KL Loss: 42.5323187 DSM Loss: 59.4498578 Overall Loss:103.9091148
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : EXC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.7568827271461487
+
+
+Running on file GD_pct.csv (26/71)...
+Use GPU: cuda:0
+>>>>>>>start training : GD_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(133.0562, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(135.6279, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0152571 KL Loss: 42.9703553 DSM Loss: 87.1526744 Overall Loss:132.1382861
+Validation loss decreased (inf --> 0.606036).  Saving model ...
+Updating learning rate to 0.0005
+tensor(155.2557, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(116.2150, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9734065 KL Loss: 42.9229282 DSM Loss: 60.6540120 Overall Loss:105.5503466
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(89.8273, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(100.0591, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9878533 KL Loss: 42.8622469 DSM Loss: 60.1862034 Overall Loss:105.0363034
+Validation loss decreased (0.606036 --> 0.605255).  Saving model ...
+Updating learning rate to 0.000125
+tensor(103.0949, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.5788, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9609715 KL Loss: 42.7428691 DSM Loss: 59.7917860 Overall Loss:104.4956264
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(109.8422, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(124.5574, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9434885 KL Loss: 42.4913460 DSM Loss: 58.2133582 Overall Loss:102.6481927
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : GD_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6824600100517273
+
+
+Running on file GE_pct.csv (27/71)...
+Use GPU: cuda:0
+>>>>>>>start training : GE_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(133.0127, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(108.3964, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.8891891 KL Loss: 42.7330652 DSM Loss: 73.1640155 Overall Loss:117.7862700
+Validation loss decreased (inf --> 0.634814).  Saving model ...
+Updating learning rate to 0.0005
+tensor(104.7034, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(84.2727, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9748666 KL Loss: 42.8831728 DSM Loss: 61.5825991 Overall Loss:106.4406384
+Validation loss decreased (0.634814 --> 0.632417).  Saving model ...
+Updating learning rate to 0.00025
+tensor(137.0956, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(105.7774, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9762962 KL Loss: 42.7659291 DSM Loss: 61.7797863 Overall Loss:106.5220114
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(106.6374, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(105.7434, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9322624 KL Loss: 42.5448946 DSM Loss: 59.7710718 Overall Loss:104.2482286
+Validation loss decreased (0.632417 --> 0.631647).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(90.4070, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(100.9536, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9586366 KL Loss: 42.7211929 DSM Loss: 60.4562675 Overall Loss:105.1360971
+Validation loss decreased (0.631647 --> 0.631187).  Saving model ...
+Updating learning rate to 3.125e-05
+tensor(144.4449, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(121.2336, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9854749 KL Loss: 42.8685427 DSM Loss: 59.6522444 Overall Loss:104.5062627
+Validation loss decreased (0.631187 --> 0.630939).  Saving model ...
+Updating learning rate to 1.5625e-05
+tensor(105.0027, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(99.6934, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.9304235 KL Loss: 42.2438256 DSM Loss: 60.0327216 Overall Loss:104.2069710
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 7.8125e-06
+tensor(111.6739, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(139.2228, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 8, Steps: 80 | MSE Loss: 1.9322617 KL Loss: 42.6228055 DSM Loss: 60.5964602 Overall Loss:105.1515271
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : GE_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.5049872994422913
+
+
+Running on file GOOG_pct.csv (28/71)...
+Use GPU: cuda:0
+>>>>>>>start training : GOOG_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(194.1334, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(95.2974, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9626488 KL Loss: 42.7320800 DSM Loss: 68.4121372 Overall Loss:113.1068653
+Validation loss decreased (inf --> 1.226148).  Saving model ...
+Updating learning rate to 0.0005
+tensor(90.3000, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.7681, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9840146 KL Loss: 42.9004941 DSM Loss: 59.1133479 Overall Loss:103.9978562
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(111.8189, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.2923, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9562519 KL Loss: 42.6376702 DSM Loss: 59.0605928 Overall Loss:103.6545149
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : GOOG_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.7355685234069824
+
+
+Running on file HD_pct.csv (29/71)...
+Use GPU: cuda:0
+>>>>>>>start training : HD_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(174.8313, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(162.1286, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0045640 KL Loss: 43.3003811 DSM Loss: 78.0595759 Overall Loss:123.3645205
+Validation loss decreased (inf --> 1.120470).  Saving model ...
+Updating learning rate to 0.0005
+tensor(93.6825, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(197.6355, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9340760 KL Loss: 42.3154593 DSM Loss: 61.1333224 Overall Loss:105.3828580
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(73.2170, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(128.6075, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 2.0230930 KL Loss: 43.2291565 DSM Loss: 57.6351616 Overall Loss:102.8874113
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : HD_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.0167227983474731
+
+
+Running on file HON_pct.csv (30/71)...
+Use GPU: cuda:0
+>>>>>>>start training : HON_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(163.1960, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(146.1763, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9397821 KL Loss: 43.0706138 DSM Loss: 92.8163023 Overall Loss:137.8266976
+Validation loss decreased (inf --> 0.819700).  Saving model ...
+Updating learning rate to 0.0005
+tensor(127.2112, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(114.4620, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9330827 KL Loss: 42.8893291 DSM Loss: 59.1892080 Overall Loss:104.0116200
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(72.2772, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(126.0879, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9722979 KL Loss: 42.8150836 DSM Loss: 59.8204494 Overall Loss:104.6078312
+Validation loss decreased (0.819700 --> 0.817002).  Saving model ...
+Updating learning rate to 0.000125
+tensor(66.5384, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(70.2696, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9468644 KL Loss: 42.4950130 DSM Loss: 59.1165190 Overall Loss:103.5583965
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(78.2663, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(142.0383, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9662277 KL Loss: 42.7462143 DSM Loss: 58.6222282 Overall Loss:103.3346703
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : HON_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.7120952606201172
+
+
+Running on file HSBC_pct.csv (31/71)...
+Use GPU: cuda:0
+>>>>>>>start training : HSBC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(143.1722, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(114.8481, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9298916 KL Loss: 42.5646541 DSM Loss: 74.5475794 Overall Loss:119.0421251
+Validation loss decreased (inf --> 1.283018).  Saving model ...
+Updating learning rate to 0.0005
+tensor(119.5648, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(115.5045, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9741576 KL Loss: 42.8286593 DSM Loss: 58.5065028 Overall Loss:103.3093206
+Validation loss decreased (1.283018 --> 1.243306).  Saving model ...
+Updating learning rate to 0.00025
+tensor(113.1367, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(83.2993, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9366698 KL Loss: 42.6208445 DSM Loss: 57.2973002 Overall Loss:101.8548141
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(94.5688, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(151.3082, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9493821 KL Loss: 42.6073635 DSM Loss: 56.8488742 Overall Loss:101.4056195
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : HSBC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.9825603365898132
+
+
+Running on file IEP_pct.csv (32/71)...
+Use GPU: cuda:0
+>>>>>>>start training : IEP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(190.0962, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(108.4247, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9278590 KL Loss: 42.4234946 DSM Loss: 60.6761377 Overall Loss:105.0274918
+Validation loss decreased (inf --> 0.350831).  Saving model ...
+Updating learning rate to 0.0005
+tensor(122.6777, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(77.2872, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9150405 KL Loss: 42.3641333 DSM Loss: 52.8959117 Overall Loss:97.1750856
+Validation loss decreased (0.350831 --> 0.348437).  Saving model ...
+Updating learning rate to 0.00025
+tensor(79.0812, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(118.8618, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9379661 KL Loss: 42.4067473 DSM Loss: 52.8110719 Overall Loss:97.1557853
+Validation loss decreased (0.348437 --> 0.348234).  Saving model ...
+Updating learning rate to 0.000125
+tensor(84.1315, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.6287, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9134907 KL Loss: 42.2777661 DSM Loss: 52.6644789 Overall Loss:96.8557349
+Validation loss decreased (0.348234 --> 0.348088).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(86.3425, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(100.0757, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9011923 KL Loss: 42.3703973 DSM Loss: 51.9621917 Overall Loss:96.2337818
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 3.125e-05
+tensor(95.4281, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(90.1754, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9231487 KL Loss: 42.3669521 DSM Loss: 51.8022873 Overall Loss:96.0923887
+Validation loss decreased (0.348088 --> 0.347949).  Saving model ...
+Updating learning rate to 1.5625e-05
+tensor(79.0683, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.7276, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.8994922 KL Loss: 42.3210441 DSM Loss: 51.6104362 Overall Loss:95.8309724
+Validation loss decreased (0.347949 --> 0.347817).  Saving model ...
+Updating learning rate to 7.8125e-06
+tensor(102.1754, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(166.6397, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 8, Steps: 80 | MSE Loss: 1.9264061 KL Loss: 42.5439063 DSM Loss: 51.4243319 Overall Loss:95.8946445
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 3.90625e-06
+tensor(76.2058, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(101.4954, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 9, Steps: 80 | MSE Loss: 1.9094354 KL Loss: 42.3711778 DSM Loss: 51.8908429 Overall Loss:96.1714563
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : IEP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:3.2674732208251953
+
+
+Running on file INTC_pct.csv (33/71)...
+Use GPU: cuda:0
+>>>>>>>start training : INTC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(176.2164, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(92.7643, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9819583 KL Loss: 43.0120841 DSM Loss: 74.9016518 Overall Loss:119.8956933
+Validation loss decreased (inf --> 0.925220).  Saving model ...
+Updating learning rate to 0.0005
+tensor(113.3216, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(80.5119, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 2.0122059 KL Loss: 42.9272228 DSM Loss: 60.8697679 Overall Loss:105.8091966
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(119.2966, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(86.9869, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 2.0017997 KL Loss: 42.9426561 DSM Loss: 58.9924673 Overall Loss:103.9369233
+Validation loss decreased (0.925220 --> 0.924531).  Saving model ...
+Updating learning rate to 0.000125
+tensor(115.3282, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(101.6096, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9826450 KL Loss: 42.7888148 DSM Loss: 59.0516469 Overall Loss:103.8231062
+Validation loss decreased (0.924531 --> 0.922996).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(86.2692, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(99.8669, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9713171 KL Loss: 42.6478587 DSM Loss: 58.8501447 Overall Loss:103.4693203
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 3.125e-05
+tensor(78.6390, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(74.0379, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9305887 KL Loss: 42.5203745 DSM Loss: 58.7076818 Overall Loss:103.1586450
+Validation loss decreased (0.922996 --> 0.919995).  Saving model ...
+Updating learning rate to 1.5625e-05
+tensor(87.3919, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(122.3704, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.9486804 KL Loss: 42.5721220 DSM Loss: 59.6993840 Overall Loss:104.2201867
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 7.8125e-06
+tensor(111.2116, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(113.9576, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 8, Steps: 80 | MSE Loss: 1.9369294 KL Loss: 42.5301532 DSM Loss: 60.0693660 Overall Loss:104.5364483
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : INTC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.3785725831985474
+
+
+Running on file JNJ_pct.csv (34/71)...
+Use GPU: cuda:0
+>>>>>>>start training : JNJ_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(116.0596, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(130.6846, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9525533 KL Loss: 42.6572201 DSM Loss: 73.5257772 Overall Loss:118.1355501
+Validation loss decreased (inf --> 0.726999).  Saving model ...
+Updating learning rate to 0.0005
+tensor(84.3265, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(109.0263, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9965616 KL Loss: 42.9476289 DSM Loss: 60.8298129 Overall Loss:105.7740032
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(105.6470, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(98.5156, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9834507 KL Loss: 43.0161341 DSM Loss: 58.6696228 Overall Loss:103.6692079
+Validation loss decreased (0.726999 --> 0.726991).  Saving model ...
+Updating learning rate to 0.000125
+tensor(72.5233, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(73.9457, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 2.0123170 KL Loss: 42.8974246 DSM Loss: 59.3422184 Overall Loss:104.2519604
+Validation loss decreased (0.726991 --> 0.726864).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(81.9727, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(154.9572, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9463041 KL Loss: 42.5949106 DSM Loss: 59.6218144 Overall Loss:104.1630291
+Validation loss decreased (0.726864 --> 0.726775).  Saving model ...
+Updating learning rate to 3.125e-05
+tensor(79.9337, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(123.8986, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9393725 KL Loss: 42.6264235 DSM Loss: 59.4876796 Overall Loss:104.0534754
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 1.5625e-05
+tensor(75.2645, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(86.9057, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.9319472 KL Loss: 42.5558572 DSM Loss: 59.3933203 Overall Loss:103.8811255
+Validation loss decreased (0.726775 --> 0.726772).  Saving model ...
+Updating learning rate to 7.8125e-06
+tensor(87.1089, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(120.9097, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 8, Steps: 80 | MSE Loss: 1.9451959 KL Loss: 42.7476995 DSM Loss: 57.9829371 Overall Loss:102.6758316
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 3.90625e-06
+tensor(107.5712, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(84.7749, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 9, Steps: 80 | MSE Loss: 1.9298876 KL Loss: 42.4728755 DSM Loss: 59.1336321 Overall Loss:103.5363955
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : JNJ_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.7324829697608948
+
+
+Running on file JPM_pct.csv (35/71)...
+Use GPU: cuda:0
+>>>>>>>start training : JPM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(159.5219, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(109.9845, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9804914 KL Loss: 43.1209389 DSM Loss: 67.3862055 Overall Loss:112.4876354
+Validation loss decreased (inf --> 0.765881).  Saving model ...
+Updating learning rate to 0.0005
+tensor(70.7476, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(102.2785, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9525122 KL Loss: 42.6375361 DSM Loss: 57.9826160 Overall Loss:102.5726639
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(112.3153, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(131.1387, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.8782386 KL Loss: 42.1354494 DSM Loss: 58.7557904 Overall Loss:102.7694780
+Validation loss decreased (0.765881 --> 0.755871).  Saving model ...
+Updating learning rate to 0.000125
+tensor(85.4882, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(112.1647, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9244343 KL Loss: 42.6551067 DSM Loss: 57.0373542 Overall Loss:101.6168960
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(103.5677, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(110.4653, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9498119 KL Loss: 42.6597292 DSM Loss: 58.3753250 Overall Loss:102.9848663
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : JPM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6592108607292175
+
+
+Running on file KO_pct.csv (36/71)...
+Use GPU: cuda:0
+>>>>>>>start training : KO_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(135.6006, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(86.6093, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9362456 KL Loss: 42.5256041 DSM Loss: 72.7985544 Overall Loss:117.2604046
+Validation loss decreased (inf --> 0.738001).  Saving model ...
+Updating learning rate to 0.0005
+tensor(91.4987, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(108.6832, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9837510 KL Loss: 42.9659571 DSM Loss: 60.2765962 Overall Loss:105.2263040
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(117.6920, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(105.0729, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9822187 KL Loss: 42.7715138 DSM Loss: 59.1724336 Overall Loss:103.9261660
+Validation loss decreased (0.738001 --> 0.735541).  Saving model ...
+Updating learning rate to 0.000125
+tensor(121.3438, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(156.4364, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9798447 KL Loss: 42.8672249 DSM Loss: 58.4006048 Overall Loss:103.2476746
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(97.5315, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(97.3179, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9497719 KL Loss: 42.6399900 DSM Loss: 59.8947246 Overall Loss:104.4844867
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : KO_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6153504252433777
+
+
+Running on file LMT_pct.csv (37/71)...
+Use GPU: cuda:0
+>>>>>>>start training : LMT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(196.0876, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(106.6326, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0528360 KL Loss: 43.1226268 DSM Loss: 68.0846068 Overall Loss:113.2600694
+Validation loss decreased (inf --> 1.271322).  Saving model ...
+Updating learning rate to 0.0005
+tensor(128.9492, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(62.4842, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9241324 KL Loss: 42.3932739 DSM Loss: 62.3006234 Overall Loss:106.6180296
+Validation loss decreased (1.271322 --> 1.267399).  Saving model ...
+Updating learning rate to 0.00025
+tensor(111.1284, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.4389, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9998013 KL Loss: 42.9526594 DSM Loss: 61.2777411 Overall Loss:106.2302019
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(96.6851, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(94.3121, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9686134 KL Loss: 42.6567316 DSM Loss: 60.9007032 Overall Loss:105.5260479
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : LMT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8131513595581055
+
+
+Running on file MA_pct.csv (38/71)...
+Use GPU: cuda:0
+>>>>>>>start training : MA_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(132.5011, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(154.9202, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9228692 KL Loss: 42.7003726 DSM Loss: 66.8555299 Overall Loss:111.4787717
+Validation loss decreased (inf --> 1.446869).  Saving model ...
+Updating learning rate to 0.0005
+tensor(115.2130, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(88.4325, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9496474 KL Loss: 42.6991243 DSM Loss: 59.0530185 Overall Loss:103.7017900
+Validation loss decreased (1.446869 --> 1.442888).  Saving model ...
+Updating learning rate to 0.00025
+tensor(109.6542, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(96.4105, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9190085 KL Loss: 42.4741765 DSM Loss: 58.9741322 Overall Loss:103.3673174
+Validation loss decreased (1.442888 --> 1.442632).  Saving model ...
+Updating learning rate to 0.000125
+tensor(120.9631, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(85.4911, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9251493 KL Loss: 42.5648331 DSM Loss: 58.2038160 Overall Loss:102.6937983
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(154.2906, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(83.5980, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9408585 KL Loss: 42.6339918 DSM Loss: 58.9989842 Overall Loss:103.5738339
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : MA_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.581852912902832
+
+
+Running on file MCD_pct.csv (39/71)...
+Use GPU: cuda:0
+>>>>>>>start training : MCD_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(141.2065, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(134.1068, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9327125 KL Loss: 42.7194457 DSM Loss: 85.0909050 Overall Loss:129.7430628
+Validation loss decreased (inf --> 0.568797).  Saving model ...
+Updating learning rate to 0.0005
+tensor(117.1863, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(138.1660, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9809906 KL Loss: 42.9324888 DSM Loss: 61.3847748 Overall Loss:106.2982537
+Validation loss decreased (0.568797 --> 0.567575).  Saving model ...
+Updating learning rate to 0.00025
+tensor(188.9872, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(79.4892, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9459969 KL Loss: 42.8941022 DSM Loss: 59.2831963 Overall Loss:104.1232948
+Validation loss decreased (0.567575 --> 0.565300).  Saving model ...
+Updating learning rate to 0.000125
+tensor(148.5348, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(79.3812, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9692097 KL Loss: 42.8640568 DSM Loss: 59.2868871 Overall Loss:104.1201533
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(82.3599, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(116.0158, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9777539 KL Loss: 42.9198050 DSM Loss: 58.7813733 Overall Loss:103.6789320
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : MCD_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.4895993769168854
+
+
+Running on file MDT_pct.csv (40/71)...
+Use GPU: cuda:0
+>>>>>>>start training : MDT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(216.9282, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(95.0685, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9378011 KL Loss: 42.5177985 DSM Loss: 72.4583522 Overall Loss:116.9139515
+Validation loss decreased (inf --> 0.970376).  Saving model ...
+Updating learning rate to 0.0005
+tensor(78.6478, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(88.7636, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9456784 KL Loss: 42.7164729 DSM Loss: 60.3546591 Overall Loss:105.0168103
+Validation loss decreased (0.970376 --> 0.960469).  Saving model ...
+Updating learning rate to 0.00025
+tensor(121.4350, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(106.7406, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 2.0172703 KL Loss: 43.1381410 DSM Loss: 58.0185159 Overall Loss:103.1739266
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(83.5506, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(75.6643, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9955572 KL Loss: 42.8543720 DSM Loss: 58.9099592 Overall Loss:103.7598880
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : MDT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.960992693901062
+
+
+Running on file MMM_pct.csv (41/71)...
+Use GPU: cuda:0
+>>>>>>>start training : MMM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(141.5376, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(133.2558, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9596898 KL Loss: 42.9588505 DSM Loss: 71.7423908 Overall Loss:116.6609311
+Validation loss decreased (inf --> 0.716147).  Saving model ...
+Updating learning rate to 0.0005
+tensor(142.6326, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(123.6274, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9281766 KL Loss: 42.5789060 DSM Loss: 61.1063979 Overall Loss:105.6134803
+Validation loss decreased (0.716147 --> 0.714110).  Saving model ...
+Updating learning rate to 0.00025
+tensor(123.4508, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(98.3622, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9586726 KL Loss: 42.9090563 DSM Loss: 59.8789143 Overall Loss:104.7466433
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(93.0438, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(117.1392, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9823992 KL Loss: 42.8853649 DSM Loss: 59.8752362 Overall Loss:104.7429996
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : MMM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.4447559118270874
+
+
+Running on file MO_pct.csv (42/71)...
+Use GPU: cuda:0
+>>>>>>>start training : MO_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(162.5662, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(141.7637, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9966138 KL Loss: 42.9032380 DSM Loss: 73.1879135 Overall Loss:118.0877653
+Validation loss decreased (inf --> 0.753859).  Saving model ...
+Updating learning rate to 0.0005
+tensor(96.9701, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(97.8273, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9466784 KL Loss: 42.4643795 DSM Loss: 60.9497882 Overall Loss:105.3608469
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(110.4048, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(110.5852, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9408674 KL Loss: 42.6342077 DSM Loss: 59.8389448 Overall Loss:104.4140195
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : MO_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.5924682021141052
+
+
+Running on file MRK_pct.csv (43/71)...
+Use GPU: cuda:0
+>>>>>>>start training : MRK_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(193.3743, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(118.3427, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9939809 KL Loss: 42.7440477 DSM Loss: 81.5748694 Overall Loss:126.3128975
+Validation loss decreased (inf --> 1.636479).  Saving model ...
+Updating learning rate to 0.0005
+tensor(81.8622, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(114.6605, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9610446 KL Loss: 42.5935342 DSM Loss: 61.8722983 Overall Loss:106.4268771
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(116.9814, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(100.1127, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9806355 KL Loss: 42.7712438 DSM Loss: 59.1622047 Overall Loss:103.9140838
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : MRK_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8125588893890381
+
+
+Running on file MSFT_pct.csv (44/71)...
+Use GPU: cuda:0
+>>>>>>>start training : MSFT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(191.6494, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(140.1340, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0497981 KL Loss: 43.0887375 DSM Loss: 65.7411475 Overall Loss:110.8796826
+Validation loss decreased (inf --> 1.039892).  Saving model ...
+Updating learning rate to 0.0005
+tensor(86.4986, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(128.5127, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9703570 KL Loss: 42.7544119 DSM Loss: 59.0021400 Overall Loss:103.7269095
+Validation loss decreased (1.039892 --> 1.034372).  Saving model ...
+Updating learning rate to 0.00025
+tensor(94.9432, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.2088, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9756233 KL Loss: 42.7305264 DSM Loss: 58.0157267 Overall Loss:102.7218761
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(78.6714, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(93.1720, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9561022 KL Loss: 42.6672688 DSM Loss: 58.3211282 Overall Loss:102.9444991
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : MSFT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.2246344089508057
+
+
+Running on file NEE_pct.csv (45/71)...
+Use GPU: cuda:0
+>>>>>>>start training : NEE_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(135.1304, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(98.5273, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9166401 KL Loss: 42.7088836 DSM Loss: 70.4968004 Overall Loss:115.1223250
+Validation loss decreased (inf --> 1.372310).  Saving model ...
+Updating learning rate to 0.0005
+tensor(107.9391, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(119.7493, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9753143 KL Loss: 43.1038262 DSM Loss: 60.7305709 Overall Loss:105.8097117
+Validation loss decreased (1.372310 --> 1.371635).  Saving model ...
+Updating learning rate to 0.00025
+tensor(81.0190, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(115.8178, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9552938 KL Loss: 42.8172022 DSM Loss: 59.2396245 Overall Loss:104.0121213
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(149.1896, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(81.3896, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9659065 KL Loss: 42.7573680 DSM Loss: 58.5283778 Overall Loss:103.2516521
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : NEE_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.4693337678909302
+
+
+Running on file NGG_pct.csv (46/71)...
+Use GPU: cuda:0
+>>>>>>>start training : NGG_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(201.1958, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(115.1791, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9767061 KL Loss: 42.8109035 DSM Loss: 75.4338886 Overall Loss:120.2214992
+Validation loss decreased (inf --> 0.552393).  Saving model ...
+Updating learning rate to 0.0005
+tensor(138.2823, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(81.4424, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9993575 KL Loss: 42.8550992 DSM Loss: 61.6602418 Overall Loss:106.5146987
+Validation loss decreased (0.552393 --> 0.541624).  Saving model ...
+Updating learning rate to 0.00025
+tensor(85.2532, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(89.0536, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9718096 KL Loss: 42.5177798 DSM Loss: 61.1831712 Overall Loss:105.6727603
+Validation loss decreased (0.541624 --> 0.531957).  Saving model ...
+Updating learning rate to 0.000125
+tensor(102.1570, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(107.1048, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9299070 KL Loss: 42.5517771 DSM Loss: 61.7533060 Overall Loss:106.2349899
+Validation loss decreased (0.531957 --> 0.524197).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(102.6578, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(122.0229, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9231432 KL Loss: 42.3756351 DSM Loss: 61.5255188 Overall Loss:105.8242970
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 3.125e-05
+tensor(83.7851, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(115.1875, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9821554 KL Loss: 42.7395870 DSM Loss: 59.4192222 Overall Loss:104.1409645
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : NGG_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.9892217516899109
+
+
+Running on file NVS_pct.csv (47/71)...
+Use GPU: cuda:0
+>>>>>>>start training : NVS_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(145.6859, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(112.4417, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9277018 KL Loss: 42.7849287 DSM Loss: 68.1123039 Overall Loss:112.8249347
+Validation loss decreased (inf --> 0.751788).  Saving model ...
+Updating learning rate to 0.0005
+tensor(85.3675, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(135.2581, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9519377 KL Loss: 42.6120905 DSM Loss: 58.0265508 Overall Loss:102.5905794
+Validation loss decreased (0.751788 --> 0.746519).  Saving model ...
+Updating learning rate to 0.00025
+tensor(85.7506, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(84.0626, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9068821 KL Loss: 42.3315862 DSM Loss: 57.8913346 Overall Loss:102.1298026
+Validation loss decreased (0.746519 --> 0.743831).  Saving model ...
+Updating learning rate to 0.000125
+tensor(83.4199, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(112.8533, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9209764 KL Loss: 42.4995351 DSM Loss: 57.5343884 Overall Loss:101.9548996
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(118.6285, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(103.7685, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9176017 KL Loss: 42.5335200 DSM Loss: 57.3760767 Overall Loss:101.8271986
+Validation loss decreased (0.743831 --> 0.743453).  Saving model ...
+Updating learning rate to 3.125e-05
+tensor(104.9212, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(95.3278, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9366238 KL Loss: 42.6716621 DSM Loss: 57.0901498 Overall Loss:101.6984357
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 1.5625e-05
+tensor(84.1463, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(80.4234, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.9452715 KL Loss: 42.6314825 DSM Loss: 57.4616436 Overall Loss:102.0383970
+Validation loss decreased (0.743453 --> 0.743431).  Saving model ...
+Updating learning rate to 7.8125e-06
+tensor(107.8197, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(106.8252, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 8, Steps: 80 | MSE Loss: 1.9413140 KL Loss: 42.4857014 DSM Loss: 57.1790180 Overall Loss:101.6060336
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 3.90625e-06
+tensor(87.3888, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(83.2033, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 9, Steps: 80 | MSE Loss: 1.9231355 KL Loss: 42.5169723 DSM Loss: 56.2832282 Overall Loss:100.7233365
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : NVS_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.953515887260437
+
+
+Running on file ORCL_pct.csv (48/71)...
+Use GPU: cuda:0
+>>>>>>>start training : ORCL_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(175.8916, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(149.9231, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9747577 KL Loss: 42.9222405 DSM Loss: 73.6936529 Overall Loss:118.5906512
+Validation loss decreased (inf --> 1.711826).  Saving model ...
+Updating learning rate to 0.0005
+tensor(126.4849, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(142.5405, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9910024 KL Loss: 42.9379163 DSM Loss: 58.3593513 Overall Loss:103.2882696
+Validation loss decreased (1.711826 --> 1.711016).  Saving model ...
+Updating learning rate to 0.00025
+tensor(107.2906, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(88.1267, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9579877 KL Loss: 42.5594412 DSM Loss: 59.5147426 Overall Loss:104.0321719
+Validation loss decreased (1.711016 --> 1.707994).  Saving model ...
+Updating learning rate to 0.000125
+tensor(116.2224, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(110.6104, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9728396 KL Loss: 42.7956705 DSM Loss: 57.9281744 Overall Loss:102.6966840
+Validation loss decreased (1.707994 --> 1.706868).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(130.0648, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(89.1523, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9472555 KL Loss: 42.6183238 DSM Loss: 57.8043718 Overall Loss:102.3699510
+Validation loss decreased (1.706868 --> 1.706608).  Saving model ...
+Updating learning rate to 3.125e-05
+tensor(82.4932, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(83.2184, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9569430 KL Loss: 42.7511502 DSM Loss: 57.4294378 Overall Loss:102.1375311
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 1.5625e-05
+tensor(107.2204, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(136.6775, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.9772192 KL Loss: 42.7333586 DSM Loss: 56.9051931 Overall Loss:101.6157711
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : ORCL_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.2158366441726685
+
+
+Running on file PCG_pct.csv (49/71)...
+Use GPU: cuda:0
+>>>>>>>start training : PCG_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(199.3106, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(97.1639, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0503043 KL Loss: 43.2780258 DSM Loss: 70.1411865 Overall Loss:115.4695166
+Validation loss decreased (inf --> 0.204798).  Saving model ...
+Updating learning rate to 0.0005
+tensor(71.0592, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(125.0712, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9708543 KL Loss: 42.7142695 DSM Loss: 62.2568717 Overall Loss:106.9419958
+Validation loss decreased (0.204798 --> 0.201006).  Saving model ...
+Updating learning rate to 0.00025
+tensor(86.7677, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(122.9202, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9367946 KL Loss: 42.5240079 DSM Loss: 62.4975147 Overall Loss:106.9583175
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(67.8193, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(125.9043, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9647947 KL Loss: 42.8059298 DSM Loss: 61.9026146 Overall Loss:106.6733388
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : PCG_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.11526936292648315
+
+
+Running on file PEP_pct.csv (50/71)...
+Use GPU: cuda:0
+>>>>>>>start training : PEP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(178.3805, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(74.8308, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9829753 KL Loss: 43.2548424 DSM Loss: 67.7088524 Overall Loss:112.9466706
+Validation loss decreased (inf --> 0.606968).  Saving model ...
+Updating learning rate to 0.0005
+tensor(75.6708, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(72.8832, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9061992 KL Loss: 42.3788197 DSM Loss: 62.0882516 Overall Loss:106.3732710
+Validation loss decreased (0.606968 --> 0.606737).  Saving model ...
+Updating learning rate to 0.00025
+tensor(79.7249, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(71.6287, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9506444 KL Loss: 42.8508066 DSM Loss: 60.3084402 Overall Loss:105.1098909
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(77.5961, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(106.6956, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9578517 KL Loss: 42.8857163 DSM Loss: 58.7678715 Overall Loss:103.6114396
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : PEP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6485522985458374
+
+
+Running on file PFE_pct.csv (51/71)...
+Use GPU: cuda:0
+>>>>>>>start training : PFE_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(156.6680, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(99.6455, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0544965 KL Loss: 43.0990022 DSM Loss: 71.4150606 Overall Loss:116.5685598
+Validation loss decreased (inf --> 2.517400).  Saving model ...
+Updating learning rate to 0.0005
+tensor(86.1511, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(102.4730, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9982171 KL Loss: 42.7039217 DSM Loss: 58.9438711 Overall Loss:103.6460094
+Validation loss decreased (2.517400 --> 2.516808).  Saving model ...
+Updating learning rate to 0.00025
+tensor(134.3648, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(127.7703, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9423833 KL Loss: 42.5390884 DSM Loss: 57.9318392 Overall Loss:102.4133108
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(98.7711, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(92.6791, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9609850 KL Loss: 42.7907720 DSM Loss: 57.5722103 Overall Loss:102.3239675
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : PFE_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.0833312273025513
+
+
+Running on file PG_pct.csv (52/71)...
+Use GPU: cuda:0
+>>>>>>>start training : PG_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(169.0324, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(113.9277, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0118514 KL Loss: 43.0738805 DSM Loss: 76.9448660 Overall Loss:122.0305987
+Validation loss decreased (inf --> 0.797400).  Saving model ...
+Updating learning rate to 0.0005
+tensor(118.4768, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(109.6052, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9917151 KL Loss: 42.8510828 DSM Loss: 60.7834091 Overall Loss:105.6262070
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(111.5224, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(79.5001, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9495265 KL Loss: 42.4386933 DSM Loss: 60.5916658 Overall Loss:104.9798854
+Validation loss decreased (0.797400 --> 0.792624).  Saving model ...
+Updating learning rate to 0.000125
+tensor(141.3716, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(108.1544, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9886305 KL Loss: 42.9701277 DSM Loss: 59.8678461 Overall Loss:104.8266046
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(87.0365, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(92.6917, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9621080 KL Loss: 42.8955236 DSM Loss: 59.4871758 Overall Loss:104.3448077
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : PG_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.7314746379852295
+
+
+Running on file PM_pct.csv (53/71)...
+Use GPU: cuda:0
+>>>>>>>start training : PM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(179.9313, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(120.7549, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9395808 KL Loss: 42.6068264 DSM Loss: 74.9204351 Overall Loss:119.4668426
+Validation loss decreased (inf --> 0.794917).  Saving model ...
+Updating learning rate to 0.0005
+tensor(85.9654, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(94.2171, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9553968 KL Loss: 42.7181867 DSM Loss: 61.5788940 Overall Loss:106.2524779
+Validation loss decreased (0.794917 --> 0.792017).  Saving model ...
+Updating learning rate to 0.00025
+tensor(85.8454, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(107.9928, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9404106 KL Loss: 42.7183021 DSM Loss: 61.4639401 Overall Loss:106.1226533
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(105.3568, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(106.5939, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9574904 KL Loss: 42.4837954 DSM Loss: 60.4942413 Overall Loss:104.9355272
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : PM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.5648096203804016
+
+
+Running on file PPL_pct.csv (54/71)...
+Use GPU: cuda:0
+>>>>>>>start training : PPL_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(164.3767, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(99.8593, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0052708 KL Loss: 43.1154230 DSM Loss: 73.8969072 Overall Loss:119.0176013
+Validation loss decreased (inf --> 0.466909).  Saving model ...
+Updating learning rate to 0.0005
+tensor(158.2255, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(123.3829, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9759391 KL Loss: 42.6875840 DSM Loss: 61.4189067 Overall Loss:106.0824293
+Validation loss decreased (0.466909 --> 0.466074).  Saving model ...
+Updating learning rate to 0.00025
+tensor(92.7077, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(121.5581, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9289669 KL Loss: 42.3973075 DSM Loss: 61.6359045 Overall Loss:105.9621786
+Validation loss decreased (0.466074 --> 0.465664).  Saving model ...
+Updating learning rate to 0.000125
+tensor(117.6459, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(77.4090, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9162565 KL Loss: 42.5907476 DSM Loss: 60.5582474 Overall Loss:105.0652518
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(75.2699, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(109.3246, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9462364 KL Loss: 42.6008153 DSM Loss: 59.2834267 Overall Loss:103.8304789
+Validation loss decreased (0.465664 --> 0.465240).  Saving model ...
+Updating learning rate to 3.125e-05
+tensor(102.6124, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(86.3286, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9763902 KL Loss: 42.9241430 DSM Loss: 59.0048817 Overall Loss:103.9054152
+Validation loss decreased (0.465240 --> 0.465232).  Saving model ...
+Updating learning rate to 1.5625e-05
+tensor(146.7258, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(82.5207, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.9583203 KL Loss: 42.6415472 DSM Loss: 58.7105305 Overall Loss:103.3103974
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 7.8125e-06
+tensor(132.6539, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(93.5720, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 8, Steps: 80 | MSE Loss: 1.9458985 KL Loss: 42.8341149 DSM Loss: 58.9097946 Overall Loss:103.6898083
+Validation loss decreased (0.465232 --> 0.465062).  Saving model ...
+Updating learning rate to 3.90625e-06
+tensor(80.1522, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(114.5865, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 9, Steps: 80 | MSE Loss: 1.9921050 KL Loss: 43.2759269 DSM Loss: 57.4772710 Overall Loss:102.7453025
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 1.953125e-06
+tensor(111.2661, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(190.6273, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 10, Steps: 80 | MSE Loss: 1.9298293 KL Loss: 42.0175170 DSM Loss: 60.5449128 Overall Loss:104.4922587
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : PPL_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6821078062057495
+
+
+Running on file REX_pct.csv (55/71)...
+Use GPU: cuda:0
+>>>>>>>start training : REX_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(145.4504, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(103.8916, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9641011 KL Loss: 42.5326646 DSM Loss: 68.3422825 Overall Loss:112.8390490
+Validation loss decreased (inf --> 1.041211).  Saving model ...
+Updating learning rate to 0.0005
+tensor(88.1516, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(98.1730, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9689423 KL Loss: 42.8419034 DSM Loss: 60.1166680 Overall Loss:104.9275136
+Validation loss decreased (1.041211 --> 1.032652).  Saving model ...
+Updating learning rate to 0.00025
+tensor(78.5223, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(83.1236, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9545554 KL Loss: 42.5628359 DSM Loss: 59.5973265 Overall Loss:104.1147171
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(104.2562, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(72.5409, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 2.0041420 KL Loss: 42.9077321 DSM Loss: 57.8772141 Overall Loss:102.7890884
+Validation loss decreased (1.032652 --> 1.032648).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(107.4579, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(72.8219, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9653021 KL Loss: 42.7585841 DSM Loss: 58.3382226 Overall Loss:103.0621087
+Validation loss decreased (1.032648 --> 1.032611).  Saving model ...
+Updating learning rate to 3.125e-05
+tensor(100.9323, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(77.7081, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9593638 KL Loss: 42.6539114 DSM Loss: 57.9310281 Overall Loss:102.5443028
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 1.5625e-05
+tensor(83.8007, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(108.4445, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 7, Steps: 80 | MSE Loss: 1.9686732 KL Loss: 42.8284489 DSM Loss: 57.3825396 Overall Loss:102.1796615
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : REX_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8890047669410706
+
+
+Running on file SLB_pct.csv (56/71)...
+Use GPU: cuda:0
+>>>>>>>start training : SLB_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(148.4174, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(114.9129, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0135645 KL Loss: 43.0228586 DSM Loss: 80.4581887 Overall Loss:125.4946116
+Validation loss decreased (inf --> 0.992359).  Saving model ...
+Updating learning rate to 0.0005
+tensor(87.6573, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(108.5528, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9643923 KL Loss: 42.5789472 DSM Loss: 60.3465991 Overall Loss:104.8899381
+Validation loss decreased (0.992359 --> 0.958753).  Saving model ...
+Updating learning rate to 0.00025
+tensor(181.4734, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(79.4494, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9376820 KL Loss: 42.3937777 DSM Loss: 60.0619767 Overall Loss:104.3934365
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(74.5616, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(72.4618, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9934774 KL Loss: 42.9224245 DSM Loss: 57.4369223 Overall Loss:102.3528246
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : SLB_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.8981738686561584
+
+
+Running on file SNY_pct.csv (57/71)...
+Use GPU: cuda:0
+>>>>>>>start training : SNY_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(191.0442, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(93.7306, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0083417 KL Loss: 42.8086104 DSM Loss: 67.8284590 Overall Loss:112.6454112
+Validation loss decreased (inf --> 0.856465).  Saving model ...
+Updating learning rate to 0.0005
+tensor(90.8192, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(100.2104, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9756672 KL Loss: 42.7896318 DSM Loss: 57.2078806 Overall Loss:101.9731791
+Validation loss decreased (0.856465 --> 0.856295).  Saving model ...
+Updating learning rate to 0.00025
+tensor(107.0961, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.6421, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9587072 KL Loss: 42.8007788 DSM Loss: 56.8203818 Overall Loss:101.5798676
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(117.8034, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(85.7755, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9353858 KL Loss: 42.5070598 DSM Loss: 57.3009293 Overall Loss:101.7433750
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : SNY_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.4633618593215942
+
+
+Running on file SO_pct.csv (58/71)...
+Use GPU: cuda:0
+>>>>>>>start training : SO_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(166.8856, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(82.7749, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9532535 KL Loss: 43.0545363 DSM Loss: 71.3457467 Overall Loss:116.3535365
+Validation loss decreased (inf --> 0.536822).  Saving model ...
+Updating learning rate to 0.0005
+tensor(155.0520, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(119.1781, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9999575 KL Loss: 43.0298618 DSM Loss: 60.7924690 Overall Loss:105.8222880
+Validation loss decreased (0.536822 --> 0.520532).  Saving model ...
+Updating learning rate to 0.00025
+tensor(74.3949, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(97.9333, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 2.0188198 KL Loss: 43.2002141 DSM Loss: 59.3318477 Overall Loss:104.5508817
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(117.4785, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(74.5712, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 2.0381359 KL Loss: 43.5127927 DSM Loss: 58.6493667 Overall Loss:104.2002955
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : SO_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.7715699672698975
+
+
+Running on file SPLP_pct.csv (59/71)...
+Use GPU: cuda:0
+>>>>>>>start training : SPLP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(126.1729, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(123.1712, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0167401 KL Loss: 42.9516932 DSM Loss: 75.2250090 Overall Loss:120.1934422
+Validation loss decreased (inf --> 1.146969).  Saving model ...
+Updating learning rate to 0.0005
+tensor(104.1490, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(64.9676, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9507037 KL Loss: 42.5146563 DSM Loss: 61.9174677 Overall Loss:106.3828279
+Validation loss decreased (1.146969 --> 1.143797).  Saving model ...
+Updating learning rate to 0.00025
+tensor(111.6884, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(107.0553, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 2.0046013 KL Loss: 42.9650054 DSM Loss: 58.4365145 Overall Loss:103.4061216
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(91.2732, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(106.8212, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9676111 KL Loss: 42.6391555 DSM Loss: 59.7888774 Overall Loss:104.3956436
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : SPLP_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.5646193027496338
+
+
+Running on file SRE_pct.csv (60/71)...
+Use GPU: cuda:0
+>>>>>>>start training : SRE_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(144.3362, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(70.9190, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0544151 KL Loss: 43.1902746 DSM Loss: 66.6427135 Overall Loss:111.8874034
+Validation loss decreased (inf --> 0.568122).  Saving model ...
+Updating learning rate to 0.0005
+tensor(80.3399, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(76.8225, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 2.0179118 KL Loss: 43.0905199 DSM Loss: 59.5010851 Overall Loss:104.6095168
+Validation loss decreased (0.568122 --> 0.568101).  Saving model ...
+Updating learning rate to 0.00025
+tensor(151.9721, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(93.7481, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9663034 KL Loss: 42.6491303 DSM Loss: 59.4665202 Overall Loss:104.0819543
+Validation loss decreased (0.568101 --> 0.560136).  Saving model ...
+Updating learning rate to 0.000125
+tensor(100.8423, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(75.9572, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.8866273 KL Loss: 42.2439030 DSM Loss: 60.4184066 Overall Loss:104.5489367
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(106.3682, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.1831, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.8857513 KL Loss: 42.2373962 DSM Loss: 59.7332918 Overall Loss:103.8564395
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : SRE_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6941203474998474
+
+
+Running on file TM_pct.csv (61/71)...
+Use GPU: cuda:0
+>>>>>>>start training : TM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(148.0232, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(95.7564, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9349417 KL Loss: 42.5846073 DSM Loss: 65.2550928 Overall Loss:109.7746413
+Validation loss decreased (inf --> 1.839227).  Saving model ...
+Updating learning rate to 0.0005
+tensor(87.9382, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(133.3192, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9798778 KL Loss: 42.8056351 DSM Loss: 55.4608097 Overall Loss:100.2463224
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(84.2576, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(129.2916, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9786655 KL Loss: 42.6487489 DSM Loss: 53.8341246 Overall Loss:98.4615392
+Validation loss decreased (1.839227 --> 1.838810).  Saving model ...
+Updating learning rate to 0.000125
+tensor(81.2136, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(84.4996, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9714640 KL Loss: 42.8017679 DSM Loss: 53.9927919 Overall Loss:98.7660237
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(95.9350, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(105.9364, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9436210 KL Loss: 42.4982801 DSM Loss: 53.8341017 Overall Loss:98.2760028
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : TM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.2528506517410278
+
+
+Running on file TSM_pct.csv (62/71)...
+Use GPU: cuda:0
+>>>>>>>start training : TSM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(143.2520, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(116.6641, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9646665 KL Loss: 42.9291452 DSM Loss: 68.4184671 Overall Loss:113.3122787
+Validation loss decreased (inf --> 1.347354).  Saving model ...
+Updating learning rate to 0.0005
+tensor(88.4991, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(114.3160, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9672250 KL Loss: 42.8640598 DSM Loss: 59.3336726 Overall Loss:104.1649571
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(114.6669, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(95.8027, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9300055 KL Loss: 42.4421523 DSM Loss: 59.6724442 Overall Loss:104.0446017
+Validation loss decreased (1.347354 --> 1.341251).  Saving model ...
+Updating learning rate to 0.000125
+tensor(111.2115, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(84.3663, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9507482 KL Loss: 42.7154359 DSM Loss: 58.1441712 Overall Loss:102.8103554
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(85.0122, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(121.5289, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9652534 KL Loss: 42.8527853 DSM Loss: 57.9388741 Overall Loss:102.7569125
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : TSM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.3387688398361206
+
+
+Running on file T_pct.csv (63/71)...
+Use GPU: cuda:0
+>>>>>>>start training : T_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(148.0939, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(148.3552, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9478964 KL Loss: 42.8754726 DSM Loss: 69.3756722 Overall Loss:114.1990409
+Validation loss decreased (inf --> 1.466271).  Saving model ...
+Updating learning rate to 0.0005
+tensor(138.1304, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(123.5717, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9784898 KL Loss: 42.7565074 DSM Loss: 61.2868770 Overall Loss:106.0218743
+Validation loss decreased (1.466271 --> 1.450050).  Saving model ...
+Updating learning rate to 0.00025
+tensor(78.8190, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(107.5010, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9414334 KL Loss: 42.7068373 DSM Loss: 60.4505875 Overall Loss:105.0988581
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(121.7483, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(103.3287, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9775415 KL Loss: 43.0389369 DSM Loss: 59.1681592 Overall Loss:104.1846376
+Validation loss decreased (1.450050 --> 1.449946).  Saving model ...
+Updating learning rate to 6.25e-05
+tensor(104.7732, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(110.8852, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9532920 KL Loss: 42.6094225 DSM Loss: 60.8410817 Overall Loss:105.4037958
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 3.125e-05
+tensor(88.8253, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(108.3725, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 6, Steps: 80 | MSE Loss: 1.9873530 KL Loss: 43.0444066 DSM Loss: 59.4724078 Overall Loss:104.5041674
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : T_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.4478943347930908
+
+
+Running on file UL_pct.csv (64/71)...
+Use GPU: cuda:0
+>>>>>>>start training : UL_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(142.4587, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(98.6340, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0115469 KL Loss: 42.9846144 DSM Loss: 72.1952377 Overall Loss:117.1913994
+Validation loss decreased (inf --> 2.108552).  Saving model ...
+Updating learning rate to 0.0005
+tensor(136.0524, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(112.1837, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9499784 KL Loss: 42.7238813 DSM Loss: 59.5872531 Overall Loss:104.2611125
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(89.8817, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(95.2467, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9350964 KL Loss: 42.5832487 DSM Loss: 58.4378153 Overall Loss:102.9561604
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : UL_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.5515136122703552
+
+
+Running on file UNH_pct.csv (65/71)...
+Use GPU: cuda:0
+>>>>>>>start training : UNH_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(139.9403, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(94.3521, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9641073 KL Loss: 43.1630968 DSM Loss: 71.5667722 Overall Loss:116.6939761
+Validation loss decreased (inf --> 0.641391).  Saving model ...
+Updating learning rate to 0.0005
+tensor(142.5923, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(87.2231, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9383158 KL Loss: 42.4025855 DSM Loss: 62.6100692 Overall Loss:106.9509705
+Validation loss decreased (0.641391 --> 0.639973).  Saving model ...
+Updating learning rate to 0.00025
+tensor(167.9151, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(110.9630, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9399698 KL Loss: 42.6640479 DSM Loss: 60.4486579 Overall Loss:105.0526757
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(109.1020, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(86.0996, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9219407 KL Loss: 42.3931625 DSM Loss: 59.8397202 Overall Loss:104.1548232
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : UNH_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6579030752182007
+
+
+Running on file UPS_pct.csv (66/71)...
+Use GPU: cuda:0
+>>>>>>>start training : UPS_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(185.4388, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(138.1701, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9383218 KL Loss: 42.8557808 DSM Loss: 83.2713731 Overall Loss:128.0654749
+Validation loss decreased (inf --> 1.478031).  Saving model ...
+Updating learning rate to 0.0005
+tensor(83.3520, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(129.5038, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9645961 KL Loss: 42.6978408 DSM Loss: 61.0192946 Overall Loss:105.6817318
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(101.3325, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(100.9933, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9562165 KL Loss: 42.6552032 DSM Loss: 59.8717184 Overall Loss:104.4831382
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : UPS_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.9752379655838013
+
+
+Running on file VZ_pct.csv (67/71)...
+Use GPU: cuda:0
+>>>>>>>start training : VZ_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(168.6067, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(101.3865, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 2.0085238 KL Loss: 42.8205897 DSM Loss: 68.2019105 Overall Loss:113.0310244
+Validation loss decreased (inf --> 0.821194).  Saving model ...
+Updating learning rate to 0.0005
+tensor(116.5289, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(96.5285, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9832123 KL Loss: 42.8261876 DSM Loss: 59.1906887 Overall Loss:104.0000885
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(93.4341, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(90.5260, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9678064 KL Loss: 42.7087737 DSM Loss: 59.0701384 Overall Loss:103.7467182
+Validation loss decreased (0.821194 --> 0.820296).  Saving model ...
+Updating learning rate to 0.000125
+tensor(141.7772, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(110.0966, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9701779 KL Loss: 42.7373660 DSM Loss: 58.0492074 Overall Loss:102.7567512
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 6.25e-05
+tensor(100.4477, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(102.1929, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 5, Steps: 80 | MSE Loss: 1.9772607 KL Loss: 42.8457854 DSM Loss: 58.9330296 Overall Loss:103.7560755
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : VZ_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:1.5659809112548828
+
+
+Running on file V_pct.csv (68/71)...
+Use GPU: cuda:0
+>>>>>>>start training : V_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(143.0510, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(110.6588, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9542014 KL Loss: 42.8227116 DSM Loss: 73.7606496 Overall Loss:118.5375623
+Validation loss decreased (inf --> 1.556460).  Saving model ...
+Updating learning rate to 0.0005
+tensor(184.3428, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(112.6129, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 2.0019570 KL Loss: 42.9461477 DSM Loss: 59.0415785 Overall Loss:103.9896832
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(87.9051, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(84.8354, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9359373 KL Loss: 42.7826258 DSM Loss: 57.5814700 Overall Loss:102.3000336
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : V_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.6199034452438354
+
+
+Running on file WFC_pct.csv (69/71)...
+Use GPU: cuda:0
+>>>>>>>start training : WFC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(125.5196, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(75.5071, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9143146 KL Loss: 42.6793893 DSM Loss: 69.3187327 Overall Loss:113.9124365
+Validation loss decreased (inf --> 1.040309).  Saving model ...
+Updating learning rate to 0.0005
+tensor(153.4801, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(123.0230, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9703187 KL Loss: 42.9409823 DSM Loss: 59.4840364 Overall Loss:104.3953376
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(133.6703, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(66.1632, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9553735 KL Loss: 42.6887893 DSM Loss: 60.0413900 Overall Loss:104.6855536
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : WFC_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.7266097068786621
+
+
+Running on file WMT_pct.csv (70/71)...
+Use GPU: cuda:0
+>>>>>>>start training : WMT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(166.3203, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(126.0227, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9280926 KL Loss: 42.8338074 DSM Loss: 70.3521189 Overall Loss:115.1140188
+Validation loss decreased (inf --> 0.674808).  Saving model ...
+Updating learning rate to 0.0005
+tensor(105.9580, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(103.1944, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 1.9305083 KL Loss: 42.6509198 DSM Loss: 58.1051692 Overall Loss:102.6865973
+Validation loss decreased (0.674808 --> 0.672228).  Saving model ...
+Updating learning rate to 0.00025
+tensor(132.1141, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(103.9138, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9187260 KL Loss: 42.4150857 DSM Loss: 58.4995658 Overall Loss:102.8333772
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.000125
+tensor(107.4399, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(86.2626, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 4, Steps: 80 | MSE Loss: 1.9668787 KL Loss: 42.9494164 DSM Loss: 56.7742477 Overall Loss:101.6905425
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : WMT_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.7546967267990112
+
+
+Running on file XOM_pct.csv (71/71)...
+Use GPU: cuda:0
+>>>>>>>start training : XOM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1288
+val 142
+test 343
+tensor(166.4569, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(206.7073, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 1, Steps: 80 | MSE Loss: 1.9811939 KL Loss: 42.8030715 DSM Loss: 84.1285922 Overall Loss:128.9128573
+Validation loss decreased (inf --> 1.054015).  Saving model ...
+Updating learning rate to 0.0005
+tensor(110.1605, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(119.5221, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 2, Steps: 80 | MSE Loss: 2.0220062 KL Loss: 43.1099550 DSM Loss: 59.7137796 Overall Loss:104.8457405
+EarlyStopping counter: 1 out of 2
+Updating learning rate to 0.00025
+tensor(130.2126, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(105.3944, device='cuda:0', grad_fn=<AddBackward0>)
+Epoch: 3, Steps: 80 | MSE Loss: 1.9294202 KL Loss: 42.3676607 DSM Loss: 60.6116850 Overall Loss:104.9087658
+EarlyStopping counter: 2 out of 2
+Early stopping
+>>>>>>>start testing : XOM_pct.csv_tpEcmP_stock_L_2016_24_spec_official_dva_spec_sl60>>>>>>>>>>>>>>>>>>>>>>>>>>
+test 343
+mse:0.9772977232933044
+      Ticker       MSE StdDev
+0   AAPL_pct   0.86348    0.0
+1   ABBV_pct  0.562378    0.0
+2    AEP_pct  1.141178    0.0
+3   AMGN_pct  0.708138    0.0
+4   AMZN_pct  1.746724    0.0
+..       ...       ...    ...
+66    VZ_pct  1.565981    0.0
+67     V_pct  0.619903    0.0
+68   WFC_pct   0.72661    0.0
+69   WMT_pct  0.754697    0.0
+70   XOM_pct  0.977298    0.0
+
+[71 rows x 3 columns]
