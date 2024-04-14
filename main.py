@@ -22,7 +22,7 @@ if __name__ == '__main__':
     parser.add_argument('--sequence_length', type=int, default=10, help='length of input sequence')
     parser.add_argument('--prediction_length', type=int, default=None, help='prediction sequence length')
     parser.add_argument('--target_dim', type=int, default=1, help='dimension of target')
-    parser.add_argument('--input_dim', type=int, default=6, help='dimension of input')
+    parser.add_argument('--input_dim', type=int, default=10, help='dimension of input')
     parser.add_argument('--hidden_size', type=int, default=128, help='encoder dimension')
     parser.add_argument('--embedding_dimension', type=int, default=64, help='feature embedding dimension')
 
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     parser.add_argument('--num_workers', type=int, default=5, help='data loader num workers')
     parser.add_argument('--patience', type=int, default=2, help='early stopping patience')
     parser.add_argument('--itr', type=int, default=1, help='experiment times')
-    parser.add_argument('--train_epochs', type=int, default=30, help='train epochs')
+    parser.add_argument('--train_epochs', type=int, default=20, help='train epochs')
     parser.add_argument('--batch_size', type=int, default=16, help='batch size of train input data')
     parser.add_argument('--learning_rate', type=float, default=0.0005, help='optimizer learning rate')
     parser.add_argument('--weight_decay', type=float, default=0.0000, help='weight decay')
